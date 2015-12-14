@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script>require('jquery-ui');</script>
+    <!--link rel="stylesheet" type="text/css"  href="./node_modules/jquery-ui/themes/black-tie/jquery-ui.min.css"/-->
+    <link rel="stylesheet" type="text/css"  href="./jquery-ui.bootstrap.css"/>
+    
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script>
+      $(function() {
+        $( "#tabs" ).accordion();
+      });
+      </script>
+    </head>
+    <body>
+     
+    <div id="tabs">
+        <h3>First header</h3>
+        <div>First content panel</div>
+        <h3>Second header</h3>
+        <div>Second content panel</div>
+    </div>
+  </body>
+</html>

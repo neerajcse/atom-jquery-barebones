@@ -1,0 +1,27 @@
+{
+  "name": "hospi",
+  "version": "1.0.0",
+  "description": "Free software to help manage patient records for small and medium hospitals. Currently works for hospitals only in india.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://bitbucket.org/neerajcse/hospi.git"
+  },
+  "keywords": [
+    "EMR",
+    "patient",
+    "management",
+    "electronic",
+    "records"
+  ],
+  "author": "Neeraj Kumar",
+  "license": "SEE LICENSE IN EULA",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0",
+    "jquery": "^2.1.4",
+    "jquery-ui": "^1.10.5"
+  }
+}
